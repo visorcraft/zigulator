@@ -19,6 +19,6 @@ pkgbase = zigulator
 	optdepends = ttf-liberation: alternative UI fonts
 	optdepends = noto-fonts: alternative UI fonts
 	source = zigulator-0.1.3.tar.gz::https://github.com/visorcraft/zigulator/archive/refs/tags/v0.1.3.tar.gz
-	sha256sums = SKIP
+	sha256sums = 0ccdb5698d2b6ec0ae8c063ca8570a12c26f46de9b7663ca144790bb08685f91
 
 pkgname = zigulator

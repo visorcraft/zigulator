@@ -25,8 +25,7 @@ optdepends=(
   'noto-fonts: alternative UI fonts'
 )
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-# Updated after the v0.1.3 tag is published (see release checksum commit).
-sha256sums=('SKIP')
+sha256sums=('0ccdb5698d2b6ec0ae8c063ca8570a12c26f46de9b7663ca144790bb08685f91')
 
 prepare() {
   cd "$pkgname-$pkgver"
