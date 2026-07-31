@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Zigulator
+GenericName=Calculator
+Comment=Modern desktop calculator built with Zig and Dear ImGui
+Exec=zigulator
+Icon=zigulator
+Terminal=false
+Categories=Utility;Calculator;
+Keywords=calculator;math;scientific;graph;
+StartupNotify=true
+StartupWMClass=zigulator

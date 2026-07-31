@@ -1,0 +1,30 @@
+.{
+    .name = .zigulator,
+    .version = "0.1.2",
+    .fingerprint = 0x8910a5b2b49afdf0,
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .zgui = .{
+            .url = "https://github.com/zig-gamedev/zgui/archive/88f186ac92d040c51e08fa9a6850629a3c5e4329.tar.gz",
+            .hash = "zgui-0.6.0-dev--L6sZNRIbgDftNxMl-hd4_TzAPjWZhfGWMbKcDONUigr",
+        },
+        .zglfw = .{
+            .url = "https://github.com/zig-gamedev/zglfw/archive/0dd29d8073487c9fe1e45e6b729b3aac271d5a71.tar.gz",
+            .hash = "zglfw-0.10.0-dev-zgVDNIG4IQBWN_sfMD-xfC9bJS2hbBN2W7jNlDLovcdC",
+        },
+        .zopengl = .{
+            .url = "https://github.com/zig-gamedev/zopengl/archive/eda87248c6fa190fbb5fe78fc84c5e28d6b2032e.tar.gz",
+            .hash = "zopengl-0.6.0-dev-5-tnz8mnDgCHR72YtUpLBYW_u4JgZ0Ub-UFX-M0zRSG1",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "logo.png",
+        "LICENSE",
+        "README.md",
+        "docs",
+        "packaging",
+    },
+}
