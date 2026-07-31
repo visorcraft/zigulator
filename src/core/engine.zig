@@ -3,7 +3,7 @@ const fmt = @import("format.zig");
 const parser = @import("parser.zig");
 const history_mod = @import("history.zig");
 
-pub const History = history_mod.History;
+const History = history_mod.History;
 pub const Mode = enum { simple, standard, scientific };
 pub const AngleUnit = parser.AngleUnit;
 pub const Base = fmt.Base;

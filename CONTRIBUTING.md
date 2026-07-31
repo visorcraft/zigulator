@@ -50,6 +50,7 @@ Use the standard **fork → branch → pull request** workflow on GitHub.
 | `src/core.zig` | Test root that discovers core unit tests |
 | `src/ui/` | ImGui shell, widgets, keyboard handling, theme |
 | `docs/usage.md` | End-user workflows |
+| `CREDITS.md` / `THIRD_PARTY_LICENSES.md` | Dependency credits and license texts |
 | `packaging/` | Desktop entry, icons, AUR package metadata |
 
 Keep calculator logic in `src/core/` and independent of zgui so it stays
@@ -108,7 +109,8 @@ When changing AUR packaging, regenerate `.SRCINFO`:
 - Pass allocators explicitly; pair owned allocations with `deinit`.
 - Avoid hidden global state.
 - Prefer the standard library and already-pinned dependencies over new
-  ones.
+  ones. When pins change, update `CREDITS.md` and
+  `THIRD_PARTY_LICENSES.md`.
 
 ## Commit messages
 

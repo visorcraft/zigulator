@@ -58,8 +58,9 @@ pub const State = struct {
     }
 
     pub fn deinit(self: *State) void {
-        self.allocator.free(self.xs);
-        self.allocator.free(self.ys);
+        // OOM fallbacks use empty slices (&.{}), which must not be freed.
+        if (self.xs.len != 0) self.allocator.free(self.xs);
+        if (self.ys.len != 0) self.allocator.free(self.ys);
         self.functions.deinit(self.allocator);
     }
 };

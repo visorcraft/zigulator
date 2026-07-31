@@ -15,7 +15,7 @@
   graphing, history, and statistics in one native desktop window.
 </p>
 
-<p align="center"><strong>Version 0.1.2</strong></p>
+<p align="center"><strong>Version 0.1.3</strong></p>
 
 Zigulator combines a clean calculator interface with a GUI-independent Zig
 core. It offers familiar button-driven calculation while adding expression
@@ -182,6 +182,8 @@ the working directory.
 | Contribute a change | [Contributing](CONTRIBUTING.md) |
 | Report a security issue | [Security policy](SECURITY.md) |
 | Follow repository conventions | [Repository Guidelines](AGENTS.md) |
+| Credits and acknowledgements | [Credits](CREDITS.md) |
+| Third-party license texts | [Third-Party Licenses](THIRD_PARTY_LICENSES.md) |
 
 ## Contributing
 
@@ -202,4 +204,6 @@ affected layout and keyboard path.
 
 Zigulator is licensed under
 [GPL-3.0-only](https://spdx.org/licenses/GPL-3.0-only.html). See
-[LICENSE](LICENSE).
+[LICENSE](LICENSE). Third-party components (zgui, zglfw, zopengl, Dear ImGui,
+ImPlot, GLFW, and related headers) are listed in [CREDITS.md](CREDITS.md) with
+full license texts in [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md).
